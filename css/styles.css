@@ -89,7 +89,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .logo-header {
@@ -105,6 +105,10 @@ img {
 
 .navigation {
   display: none;
+}
+
+.footer-right {
+  margin-right: 0;
 }
 
 .nav-list {
@@ -915,6 +919,7 @@ img {
 
   .navigation {
     display: block;
+    margin-left: 76px;
   }
 
   .contacts {
@@ -1114,6 +1119,10 @@ img {
 
   .footer-left {
     margin-right: 120px;
+  }
+
+  .footer-right {
+    margin-right: 80px;
   }
 
   .subscribe {
