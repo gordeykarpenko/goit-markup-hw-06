@@ -597,7 +597,7 @@
     <!-- #region overlay-->
     <div class="backdrop">
       <div class="popup-review">
-        <button class="close-popup">
+        <button type="button" class="close-popup">
           <svg height="8" width="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -689,7 +689,11 @@
     <!-- #region mobile menu -->
     <div class="mobile-menu" id="mobile-menu">
       <div class="mobile-menu-container">
-        <button type="button" class="mobile-menu-close" aria-label="Close menu">
+        <button
+          type="button"
+          class="mobile-menu-close"
+          aria-label="Close menu"
+        >
           <svg height="8" width="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -698,23 +702,17 @@
         <nav class="mobile-nav">
           <ul class="mobile-nav-list">
             <li>
-              <a
-                class="mobile-menu-link current mobile-menu-link-studio"
-                href="./index.html"
+              <a class="mobile-menu-link current mobile-menu-link-studio" href="./index.html"
                 >Studio</a
               >
             </li>
             <li>
-              <a
-                class="mobile-menu-link mobile-menu-link-portfolio"
-                href="#portfolio"
+              <a class="mobile-menu-link mobile-menu-link-portfolio" href="#portfolio"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a
-                class="mobile-menu-link mobile-menu-link-contacts"
-                href="#contacts"
+              <a class="mobile-menu-link mobile-menu-link-contacts" href="#contacts"
                 >Contacts</a
               >
             </li>
@@ -782,5 +780,6 @@
       </div>
     </div>
     <!-- #endregion mobile menu -->
+
   </body>
 </html>
